@@ -1,0 +1,35 @@
+<footer class="footer py-3">
+  <div class="container is-flex is-justify-content-space-between is-align-items-center">
+    
+    <p class="has-text-white is-size-7">
+      Anthonin © 2025
+    </p>
+
+    <div class="is-flex">
+      <a href="https://www.linkedin.com/in/anthonin-chesneau" class="mr-5">
+        <figure class="image is-24x24">
+          <img src="assets/illustration/icone-linkedin.png">
+        </figure>
+      </a>
+
+      <a href="mailto:anthonin.chesneau0804@gmail.com" class="mr-5">
+        <figure class="image is-24x24">
+          <img src="assets/illustration/icone-email.png">
+        </figure>
+      </a>
+
+      <a href="mailto:anthonin.chesneau0804@gmail.com" class="mr-5">
+        <figure class="image is-24x24">
+          <img src="assets/illustration/icone-discord.png">
+        </figure>
+      </a>
+
+      <a href="mailto:anthonin.chesneau0804@gmail.com">
+        <figure class="image is-24x24">
+          <img src="assets/illustration/icone-github.png">
+        </figure>
+      </a>
+    </div>
+
+  </div>
+</footer>

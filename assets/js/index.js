@@ -1,8 +1,8 @@
 const phrases = [
   "Je suis étudiant à EPSI.",
-  "Je fais actuellement un bachelor en informatique.",
+  "Je fais actuellement un bachelor SIN.",
   "Je fais également un BTS SIO.",
-  "J'aime beaucoup créer des projets !"
+  "J'aime créer des projets !"
 ];
 
 const typingElement = document.getElementById("typing");
@@ -54,3 +54,54 @@ function loop(currentTime) {
 }
 
 requestAnimationFrame(loop);
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const panel = document.getElementById("news-panel");
+  const current = panel.querySelector(".current");
+  const next = panel.querySelector(".next");
+
+  const projects = [
+    { title: "Dernier Projet Réalisé", name: "Site e-commerce", date: "19/12/2025", icon: "assets/illustration/icone-ecommerce-lampe.png", description: "Création d'un site e-commerce. Nous nous sommes inspirés d'Amazon pour ce projet.", url: "#" },
+    { title: "Mon Projet Favoris", name: "Site e-commerce", date: "19/12/2025", icon: "assets/illustration/icone-ecommerce-lampe.png", description: "C'est mon projet préféré car c'est celui qui se rapproche le plus de ce que j'aime faire sans restriction.", url: "#" }
+  ];
+
+  let currentIndex = 0;
+
+  function render(project, element) {
+    element.innerHTML = `
+      <h3>${project.title}</h3><br>
+      <h2><strong class="is-underlined">${project.name}</strong> - <span>${project.date}</span></h2><br>
+      <img src="${project.icon}" style="cursor:pointer; width:128px; height:128px;" /><br>
+      <p>${project.description}</p>
+    `;
+    const icon = element.querySelector("img");
+    icon.onclick = () => window.open(project.url, "_blank");
+  }
+
+  render(projects[currentIndex], current);
+  current.classList.add("show");
+
+  setInterval(() => {
+    const nextIndex = (currentIndex + 1) % projects.length;
+
+    render(projects[nextIndex], next);
+    next.classList.add("show");
+
+    setTimeout(() => {
+      current.classList.remove("show");
+
+      const temp = current.innerHTML;
+      current.innerHTML = next.innerHTML;
+      current.classList.add("show");
+      next.classList.remove("show");
+      next.innerHTML = "";
+    }, 500);
+
+    currentIndex = nextIndex;
+  }, 6000);
+});
+
+
+
+
