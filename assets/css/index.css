@@ -12,10 +12,6 @@ html, body {
   flex: 1;
 }
 
-.gras {
-  color: #00E5FF;
-}
-
 .video-background {
   position: fixed;
   top: 0;
