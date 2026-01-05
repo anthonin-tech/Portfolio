@@ -6,6 +6,7 @@
     <title>Portfolio_Anthonin</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
     <link rel="stylesheet" href="assets/css/index.css">
+    
 </head>
 <body>
 

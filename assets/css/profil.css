@@ -1,0 +1,37 @@
+h1 {
+    color: rgb(205, 80, 216);
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: rgb(205, 80, 216);
+    margin-bottom: 10px;
+}
+
+.box {
+    color: white;
+    background-color: #140634;
+    border: 3px solid rgb(153, 7, 153);
+    border-radius: 40px;
+    margin-top: 40px;
+}
+
+.passion li {
+    margin-bottom: 10px;
+}
+
+.hard_texte {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    padding: 30px;
+    gap: 50px;
+}
+
+.hard_texte img {
+    margin-bottom: 20px;
+}
+
+.box_outils {
+    margin-bottom: 40px;
+}
