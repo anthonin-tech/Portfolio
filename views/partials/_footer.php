@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="assets/css/footer.css">
+
 <footer class="footer py-3">
   <div class="container is-flex is-justify-content-space-between is-align-items-center">
     
@@ -18,13 +20,13 @@
         </figure>
       </a>
 
-      <a href="mailto:anthonin.chesneau0804@gmail.com" class="mr-5">
+      <a href="https://discord.com/users/1413518654649270334" target="_blank"" class="mr-5">
         <figure class="image is-24x24">
           <img src="assets/illustration/icone-discord.png">
         </figure>
       </a>
 
-      <a href="mailto:anthonin.chesneau0804@gmail.com">
+      <a href="https://github.com/anthonin-tech" target="_blank">
         <figure class="image is-24x24">
           <img src="assets/illustration/icone-github.png">
         </figure>

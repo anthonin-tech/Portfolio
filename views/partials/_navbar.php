@@ -1,5 +1,8 @@
+<link rel="stylesheet" href="assets/css/navbar.css">
+
 <nav class="navbar" role="navigation">
   <div class="navbar-menu">
+    <img src="assets/illustration/logo.png" class="image is-64x64">
     <div class="navbar-end">
 
       <a class="navbar-item has-text-white mr-4 lien-nav" href="index.php?page=home">

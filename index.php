@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio_Anthonin</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/index.css">
     
 </head>
 <body>
 
-    <?php include('views/partials/_navbar.php') ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/Portfolio/views/partials/_navbar.php'; ?>
     
     <div class="video-background">
         <iframe

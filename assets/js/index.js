@@ -62,8 +62,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const next = panel.querySelector(".next");
 
   const projects = [
-    { title: "Dernier Projet Réalisé", name: "Site e-commerce", date: "19/12/2025", icon: "assets/illustration/icone-ecommerce-lampe.png", description: "Création d'un site e-commerce. Nous nous sommes inspirés d'Amazon pour ce projet.", url: "#" },
-    { title: "Mon Projet Favoris", name: "Site e-commerce", date: "19/12/2025", icon: "assets/illustration/icone-ecommerce-lampe.png", description: "C'est mon projet préféré car c'est celui qui se rapproche le plus de ce que j'aime faire sans restriction.", url: "#" }
+    { title: "Dernier Projet Réalisé", name: "site e-commerce pour lampe", date: "19/12/2025", icon: "assets/illustration/icone-lampe.png", description: "Création d'un site e-commerce. Nous nous sommes inspirés d'Amazon pour ce projet.", url: "#" },
+    { title: "Mon Projet Favoris", name: "site e-commerce pour lampe", date: "19/12/2025", icon: "assets/illustration/icone-lampe.png", description: "C'est mon projet préféré car c'est celui qui se rapproche le plus de ce que j'aime faire sans restriction.", url: "#" }
   ];
 
   let currentIndex = 0;

@@ -1,0 +1,23 @@
+.icone_cv {
+    margin-left: 5px;
+}
+
+.photo_cv {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    height: 100%;
+    padding: 50px;
+}
+
+.button {
+    background-color: #140634;
+    border-color: rgb(153, 7, 153);
+}
+
+.lien_téléchargement {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 50px;
+}

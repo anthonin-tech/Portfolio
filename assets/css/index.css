@@ -107,9 +107,9 @@ html, body {
   color: rgb(153, 7, 153);
 }
 
-.project-item img {
-  border: 3px solid rgb(153, 7, 153); 
-  border-radius: 30px;
+.new img {
+  width: 200px;
+  height: 100%;
 }
 
 .fade {
@@ -127,31 +127,4 @@ html, body {
   }
 }
 
-.navbar, .footer {
-  padding: 20px;
-  background-color: rgb(39, 3, 39);
-}
 
-.navbar-item:hover {
-  background-color: transparent;
-}
-
-.lien-nav {
-  position: relative;
-  color: white;
-}
-
-.lien-nav::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 3px;
-  width: 0%;
-  background-color: white;
-  transition: width 0.4s ease;
-}
-
-.lien-nav:hover::after {
-  width: 100%;
-}
