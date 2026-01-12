@@ -1,10 +1,26 @@
 .navbar {
+  height: 80px;
   padding: 20px;
   background-color: rgb(39, 3, 39);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .navbar-item:hover {
   background-color: transparent;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: block;
 }
 
 .lien-nav {
