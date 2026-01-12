@@ -1,6 +1,11 @@
 .navbar {
   padding: 20px;
   background-color: rgb(39, 3, 39);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .navbar-item:hover {
