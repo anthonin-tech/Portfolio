@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  padding-top: 60px;
 }
 
 .page-wrapper {
@@ -127,4 +128,40 @@ html, body {
   }
 }
 
+.section_contact {
+  display: flex;
+  justify-content: center;
+}
 
+.contact {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  background: transparent;
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 20px;
+  backdrop-filter: blur(20px);
+}
+
+.contact h1 {
+  margin-bottom: 10px;
+}
+
+.contact p {
+  margin-bottom: 30px;
+}
+
+.contact figure {
+  background-color: #140634;
+  border: 2px solid rgb(153, 7, 153);
+  border-radius: 50px;
+}
+
+.contact figure:hover {
+  transform: translateY(-6px) ;
+  box-shadow: 0 5px 10px white;
+}
