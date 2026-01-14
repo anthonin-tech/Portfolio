@@ -25,12 +25,13 @@ h2 {
 
 .box {
   color: white;
-  background: linear-gradient(145deg, #1a0b45, #12042e);
+  background: transparent;
+  backdrop-filter: blur(50px);
   border: 1px solid rgba(205, 80, 216, 0.4);
   border-radius: 24px;
   margin-top: 40px;
   padding: 30px 40px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
 }
 
 .alignement {
@@ -55,9 +56,9 @@ h2 {
   box-shadow: 0 8px 20px rgba(205, 80, 216, 0.4);
 }
 
-img {
-    align-items: center;
-    margin-bottom: 20px;
+.alignement img {
+    display: block;
+    margin: 0 auto 20px;
 }
 
 .box_outils {
@@ -73,7 +74,6 @@ img {
   padding-left: 20px;
 }
 
-.soft-compétence {
-    display: flex;
-    gap: 20px;
+.soft-compétence p{
+  font-size: 1.5rem;
 }

@@ -42,3 +42,10 @@
 .lien-nav:hover::after {
   width: 100%;
 }
+
+.lien-nav:focus {
+  transition: 3s;
+  background-color: rgb(132, 24, 132);
+  border: 2px solid rgb(190, 97, 190);
+  border-radius: 40px;
+}
