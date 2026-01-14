@@ -58,9 +58,14 @@ async function loadPageScript(page) {
 
     if (scripts[page]) {
         const script = document.createElement("script");
-        script.src = scripts[page];
+        script.src = scripts[page] + "?t=" + Date.now();
         script.id = "page-script";
-        document.body.appendChild(script);
+    
+        await new Promise((resolve, reject) => {
+            script.onload = resolve;
+            script.onerror = reject;
+            document.body.appendChild(script);
+        });
     }
 }
 
